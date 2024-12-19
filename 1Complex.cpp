@@ -48,7 +48,7 @@ istream &operator >>(istream &in, Complex &obj) {
     cout<<"Enter real part : ";
     in>>obj.real;
     cout<<"Enter imaginary part : ";
-    cin>>obj.imag;
+    in>>obj.imag;
     cout<<endl;
 }
 
